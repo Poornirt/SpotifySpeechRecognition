@@ -33,8 +33,8 @@ public class MainActivity extends AppCompatActivity {
     private Button connectSpotify, disconnectSpotify;
     private TextView displayRecognizedText;
     private SpotifyAppRemote mSpotifyAppRemote;
-    private static final String CLIENT_ID = "9b5abf82ca044bcab3e02d8b37c89486";
-    private static final String REDIRECT_URI = "https://com.example.speechrecognition/callback/";
+    private static final String CLIENT_ID = "<your client id>";
+    private static final String REDIRECT_URI = "<your uri>";
     private String mScopes="user-read-recently-played,user-library-modify,user-read-email,user-read-private";
     private int REQUEST_CODE_FOR_AUTHENTICATION=1002;
     int SPOTIFY = 1001;
